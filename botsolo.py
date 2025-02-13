@@ -31,6 +31,11 @@ async def formas(ctx):
     sobre= random.choice(lista)
     await ctx.send(sobre)
 
+@bot.command()
+async def manualidad(ctx):
+    maseta  =["1Corta la botella por la mitad con tijeras o bisturí 2Dale forma al borde3Decora la maceta con pintura acrílica y marcador indeleble 4Para colgar la maceta, puedes usar cordel, cuerda, hilo de pescar o cinta resistente"
+    ]
+    await ctx.send(maseta)
 
 
 
